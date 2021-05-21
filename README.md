@@ -2,7 +2,7 @@
 [https://github.com/alibabacloud-howto/solution-online-leaderboard-redis](https://github.com/alibabacloud-howto/solution-online-leaderboard-redis)
 
 ### Architecture Overview
-![image.png](http://github.com/alibabacloud-howto/solution-online-leaderboard-redis/raw/main/images/archi.png)
+![image.png](https://github.com/alibabacloud-howto/solution-online-leaderboard-redis/raw/main/images/archi.png)
 
 ### Deployment
 #### Terraform
@@ -28,9 +28,9 @@ provider "alicloud" {
 
 - Get the EIP of the ECS, and then logon to ECS via SSH. Please use the account root/N1cetest, the password has been predefined in Terraform script for this tutorial. If you changed the password, please use the correct password accordingly.
 
-![image.png](http://github.com/alibabacloud-howto/solution-online-leaderboard-redis/raw/main/images/step1-1.png)
+![image.png](https://github.com/alibabacloud-howto/solution-online-leaderboard-redis/raw/main/images/step1-1.png)
 
-![image.png](http://github.com/alibabacloud-howto/solution-online-leaderboard-redis/raw/main/images/step1-2.png)
+![image.png](https://github.com/alibabacloud-howto/solution-online-leaderboard-redis/raw/main/images/step1-2.png)
 
 ```bash
 ssh root@<EIP_ECS>
@@ -55,13 +55,13 @@ tar xvf source.tar.gz && cd source
 
 - Vim to modify the Java code to replace the Redis access endpoint URL and password accordingly in the Step 1.
 
-![image.png](http://github.com/alibabacloud-howto/solution-online-leaderboard-redis/raw/main/images/step2-1.png)
+![image.png](https://github.com/alibabacloud-howto/solution-online-leaderboard-redis/raw/main/images/step2-1.png)
 
 ```bash
 vim src/main/java/test/GameRankSample.java
 ```
 
-![image.png](http://github.com/alibabacloud-howto/solution-online-leaderboard-redis/raw/main/images/step2-2.png)
+![image.png](https://github.com/alibabacloud-howto/solution-online-leaderboard-redis/raw/main/images/step2-2.png)
 
 - Build the source code and package, then run the demo:
 
@@ -72,4 +72,4 @@ java -classpath target/demo-0.0.1-SNAPSHOT.jar test.GameRankSample
 
 Running result:
 
-![image.png](http://github.com/alibabacloud-howto/solution-online-leaderboard-redis/raw/main/images/step2-3.png)
+![image.png](https://github.com/alibabacloud-howto/solution-online-leaderboard-redis/raw/main/images/step2-3.png)
