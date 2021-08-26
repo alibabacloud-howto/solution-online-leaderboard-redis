@@ -1,3 +1,11 @@
+# Create Online Game Leaderboard on Redis
+
+You can access the tutorial artifact including deployment script (Terraform), related source code, sample data and instruction guidance from the github project:
+[https://github.com/alibabacloud-howto/solution-online-leaderboard-redis](https://github.com/alibabacloud-howto/solution-online-leaderboard-redis)
+
+More tutorial around Alibaba Cloud Database, please refer to:
+[https://github.com/alibabacloud-howto/database](https://github.com/alibabacloud-howto/database)
+
 ### Project URL
 [https://github.com/alibabacloud-howto/solution-online-leaderboard-redis](https://github.com/alibabacloud-howto/solution-online-leaderboard-redis)
 
