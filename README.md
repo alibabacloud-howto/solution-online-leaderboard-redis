@@ -14,9 +14,11 @@ More tutorial around Alibaba Cloud Database, please refer to:
 
 ### Deployment
 #### Terraform
+
+If you are the 1st time to use Terraform, please refer to [https://github.com/alibabacloud-howto/terraform-templates](https://github.com/alibabacloud-howto/terraform-templates) to learn how to install and use the Terraform on different operating systems.
+
 Use terraform to provision ECS and Redis instances that used in this solution against this .tf file:
 [https://github.com/alibabacloud-howto/solution-online-leaderboard-redis/blob/main/deployment/terraform/main.tf](https://github.com/alibabacloud-howto/solution-online-leaderboard-redis/blob/main/deployment/terraform/main.tf)
-
 
 For more information about how to use Terraform, please refer to this tutorial: [https://www.youtube.com/watch?v=zDDFQ9C9XP8](https://www.youtube.com/watch?v=zDDFQ9C9XP8)
 
